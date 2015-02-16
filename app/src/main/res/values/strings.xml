@@ -4,5 +4,8 @@
     <string name="app_name">Word Tracker</string>
     <string name="action_settings">Settings</string>
     <string name="action_add">Add</string>
+    <string name="title_activity_create_letter_group">Create Letter Group</string>
+    <string name="letter_group_message">Enter Letter Group</string>
+    <string name="save">Save</string>
 
 </resources>

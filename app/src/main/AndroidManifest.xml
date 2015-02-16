@@ -18,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CreateLetterGroupActivity"
+            android:label="@string/title_activity_create_letter_group"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audreychentech.wordtracker.MainActivity" />
+        </activity>
+        <provider
+            android:authorities="com.audreychentech.wordtracker.provider"
+            android:name=".provider.LetterGroupsProvider">
+        </provider>
     </application>
 
 </manifest>
